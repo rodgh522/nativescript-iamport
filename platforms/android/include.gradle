@@ -1,0 +1,55 @@
+/* Include.gradle configuration: http://docs.nativescript.org/plugins/plugins#includegradle-specification */
+repositories{
+    // maven {
+    //     url 'https://jitpack.io'
+    // }
+}
+
+dependencies {
+    // Describe plugin native Android dependencies like
+	// implementation "groupName:pluginName:ver" 
+    // EXAMPLE: implementation "com.facebook.fresco:fresco:0.9.0+"
+    // implementation "org.jetbrains.kotlin:kotlin-stdlib:1.5.30"
+    // implementation 'com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava'
+
+    
+    // implementation "androidx.multidex:multidex:2.0.1"
+    // implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.0"
+    // implementation "androidx.core:core-ktx:1.6.0"
+    // implementation "androidx.appcompat:appcompat:1.3.1"
+
+    // implementation "androidx.constraintlayout:constraintlayout:2.1.0"
+    // implementation "androidx.lifecycle:lifecycle-extensions:2.2.0"
+    // implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0"
+    // implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.2.0"
+    // implementation "androidx.lifecycle:lifecycle-common-java8:2.3.1"
+    // implementation "com.google.android.material:material:1.4.0-alpha01"
+
+    // implementation "androidx.activity:activity-ktx:1.3.0"
+    // implementation "androidx.fragment:fragment-ktx:1.3.6"
+
+    // implementation "io.insert-koin:koin-core:3.1.2"
+    // implementation "io.insert-koin:koin-android:3.1.2"
+    // implementation "io.insert-koin:koin-android-compat:3.1.2"
+    // implementation "io.insert-koin:koin-androidx-workmanager:3.1.2"
+    // implementation "io.insert-koin:koin-androidx-compose:3.1.2"
+
+    // // Retorofit
+    // implementation "com.squareup.retrofit2:retrofit:2.9.0"
+    // implementation "com.squareup.retrofit2:converter-gson:2.9.0"
+    // implementation "com.squareup.okhttp3:logging-interceptor:4.9.0"
+
+    // // Gson
+    // implementation "com.google.code.gson:gson:2.8.7"
+
+    // // Logger
+    // implementation "com.orhanobut:logger:2.2.0"
+    // // Rx
+    // implementation "io.reactivex.rxjava2:rxjava:2.2.21"
+    // implementation "io.reactivex.rxjava2:rxandroid:2.1.1"
+    // implementation "com.akaita.java:rxjava2-debug:1.4.0"
+
+    // implementation "com.github.ybq:Android-SpinKit:1.4.0"
+
+    // implementation "org.jetbrains.kotlinx:kotlinx-serialization-json:1.2.2"
+}
