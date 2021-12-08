@@ -8,15 +8,14 @@ export class NsImport extends Common {
   }
 
   makeIntent(url) {
-    const Intent = android.content.Intent;
     const intent = this.parse(url);
     const context = Application.android.foregroundActivity;
     try {
-      if (this.isExistInfo(intent, context) || this.isExistPackage(intent, context)) {
-        this.start(intent, context);
-      } else {
-        this.gotoMarket(intent, context);
-      }
+      this.start(intent, context);
+      // if (this.isExistInfo(intent, context) || this.isExistPackage(intent, context)) {
+      // } else {
+      //   this.gotoMarket(intent, context);
+      // }
     } catch(e) {
       this.gotoMarket(intent, context);
     }
